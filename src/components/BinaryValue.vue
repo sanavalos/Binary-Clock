@@ -19,8 +19,11 @@
     font-size: 10vw;
     animation: neon-glow-animation 1.5s ease-in-out infinite alternate;
     &:hover{
-    transition: all 0.5s ease-in-out;
-    font-size: 15vw;
+      transition: all 0.5s ease-in-out;
+      font-size: 15vw;
+    }
+    &:not(:hover){
+      transition: all 0.5s ease-in-out;
     }
   }
   @keyframes neon-glow-animation {
